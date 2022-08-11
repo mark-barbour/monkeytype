@@ -1,0 +1,71 @@
+{
+  "language": "code_python_ds",
+  "groups": [
+    [0, 100],
+    [101, 300],
+    [301, 600],
+    [601, 9999]
+  ],
+  "quotes": [
+    {
+      "text": "# import common libraries\\nimport pandas as pd",
+      "source": "",
+      "id": 1,
+      "length":
+    },
+    {
+      "text": "# import data.csv as a dataframe\\ndf = pd.read_csv('data.csv')",
+      "source": "",
+      "id": 2,
+      "length":
+    },
+    {
+      "text": "# review the first five rows of df\\ndf.head()",
+      "source": "",
+      "id": 3,
+      "length":
+    },
+    {
+      "text": "# review the last five rows of df\\ndf.tail()",
+      "source": "",
+      "id": 4,
+      "length":
+    },
+    {
+      "text": "# review the non-null count and data types\\ndf.info()",
+      "source": "",
+      "id": 5,
+      "length":
+    },
+    {
+      "text": "# check the shape of df\\ndf.shape",
+      "source": "",
+      "id": 6,
+      "length":
+    },
+    {
+      "text": "# get the descriptive stats for df\\ndf.describe()",
+      "source": "",
+      "id": 7,
+      "length":
+    },
+    {
+      "text": "# set the decimal format to 2 decimal places\npd.set_option('display.float_format', '{:,.2f}'.format)",
+      "source": "",
+      "id": 8,
+      "length":
+    },
+    {
+      "text": "# Count how many null values in each column\ndf.isna().sum()",
+      "source": "",
+      "id": 9,
+      "length":
+    },
+    {
+      "text": "# Drop rows that have null values\ndf.dropna(inplace = True)",
+      "source": "",
+      "id": 10,
+      "length":
+    }
+  ]
+}
